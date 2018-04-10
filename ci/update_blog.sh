@@ -36,4 +36,4 @@ if [ $NEW_COMMIT_ID != $COMMIT_ID ]; then
   echo $NEW_COMMIT_ID > .commit_id
 fi
 
-hexo generate
+/usr/local/bin/hexo g
