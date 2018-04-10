@@ -9,11 +9,11 @@ description:
 keywords:
 author: Zhe Hu
 language: chinese
-timezone: +8
+timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.code4what.com
+url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -74,6 +74,9 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: cactus
+# cactus config
+theme_config:
+  colorscheme: light
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
