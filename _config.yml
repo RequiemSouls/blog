@@ -5,15 +5,15 @@
 # Site
 title: Zhe's blog
 subtitle: Game Developer
-description:
+description: nothing can tell.....
 keywords:
 author: Zhe Hu
-language: chinese
+language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://blog.code4what.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
