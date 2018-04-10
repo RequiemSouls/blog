@@ -1,2 +1,4 @@
 #!/bin/bash
-./update_blog.sh /home/zhe/blog/
+cd /home/zhe/blog
+cd ci
+./update_blog.sh ../
