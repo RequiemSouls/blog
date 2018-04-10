@@ -74,6 +74,19 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: cactus
+# cactus config
+theme_config:
+  colorscheme: light
+nav:
+  Home: /
+  About: /about/
+  Writing: /archives/
+posts_overview:
+  show_all_posts: false
+  post_count: 5
+social_link:
+  github: https://github.com/requiemsouls
+  NAME: zhehu
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
