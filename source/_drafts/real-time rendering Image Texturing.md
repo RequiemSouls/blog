@@ -1,6 +1,5 @@
 ---
 title: Real-Time Rendering - Image Texturing
-layout: draft
 tags: rtr3, render, note
 ---
 
