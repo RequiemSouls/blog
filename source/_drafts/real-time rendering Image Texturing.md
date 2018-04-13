@@ -1,6 +1,6 @@
 ---
 title: Real-Time Rendering - Image Texturing
-tags: rtr3, render, note
+tags: [rtr3, render, note]
 ---
 
 # 纹理采样 - Image Texturing
