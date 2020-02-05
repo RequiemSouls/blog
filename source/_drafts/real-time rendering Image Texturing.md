@@ -6,7 +6,7 @@ tags: [rtr3, render, note]
 # 纹理采样 - Image Texturing
 
 ## 放大纹理 - Magnification
-![Figure-6.8](/images/rtr3/resize_Figure-6.8.png)
+![Figure-6.8](https://blog-res-1301215015.cos.ap-guangzhou.myqcloud.com/resize_Figure-6.8.png)
 - 最近邻值 - nearest neighbor
 最近邻值因为多个像素对应一个纹素(纹理元素)值会让图片像素化, 有很明显的像素块
 - 双线性插值 - bilinear interpolation
@@ -17,7 +17,7 @@ tags: [rtr3, render, note]
 参考:[Green, Chris, "Improved Alpha-Tested Magnification for Vector Textures and Special Effects" SIGGRAPH 2007](http://www.valvesoftware.com/publications/2007/SIGGRAPH2007_AlphaTestedMagnification.pdf)
 
 ## 缩小纹理 - Minification
-![Figure-6.13](/images/rtr3/resize_Figure-6.13.png)
+![Figure-6.13](https://blog-res-1301215015.cos.ap-guangzhou.myqcloud.com/resize_Figure-6.13.png)
 当纹理缩小, 一个像素会覆盖多个纹素, 如果想要得到正确的颜色值, 需要计算每个纹素对像素的贡献度(据说这样做很不高效).
 - 最近邻值
 上面图片中最上面的是使用此种采样方式, 有明显的锯齿, 移动时会更加明显(temporal aliasing).
